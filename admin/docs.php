@@ -45,7 +45,7 @@
 		<!-- ============================================================== -->
 
     <?php
-    $conn = mysqli_connect('localhost','c1832965c','UnigomWeb20-201','c1832965c_unigom');
+    $conn = mysqli_connect('localhost','root','','rh_manager');
     if(isset($_POST['submit'])){
         $fileName = $_FILES['file']['name'];
         $fileTmpName = $_FILES['file']['tmp_name'];
