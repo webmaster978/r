@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^home$ home.php
+RewriteRule ^history_log$ history_log.php
+RewriteRule ^logout$ logout.php

@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteRule ^dashboard$ index.php
+RewriteRule ^patrimoine$ pat.php
+RewriteRule ^categorie$ categorie.php
+RewriteRule ^profil$ profil.php
+RewriteRule ^tache$ tache.php
+RewriteRule ^conge$ conge.php
+RewriteRule ^service$ services.php
+
+RewriteRule ^presence$ presence.php
+RewriteRule ^tache$ tache.php
+RewriteRule ^demandes$ demandes.php
+RewriteRule ^doc$ doc.php
+RewriteRule ^offres$ offres.php
+RewriteRule ^cand$ candidature.php
+RewriteRule ^suivie$ suivie.php
+RewriteRule ^conges$ conges.php
+RewriteRule ^comm$ comm.php
+RewriteRule ^cas$ cas.php
+RewriteRule ^sous$ sous.php
+RewriteRule ^profil$ profil.php

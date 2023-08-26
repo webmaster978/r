@@ -1,0 +1,47 @@
+RewriteEngine on
+RewriteRule ^dashboard$ index.php
+RewriteRule ^card$ card.php
+RewriteRule ^pcard$ pcard.php
+RewriteRule ^user$ users.php
+RewriteRule ^acces$ acces.php
+RewriteRule ^configure$ configu.php
+
+RewriteRule ^presence$ presence.php
+RewriteRule ^tache$ tache.php
+RewriteRule ^demandes$ demandes.php
+RewriteRule ^doc$ doc.php
+RewriteRule ^offres$ offres.php
+RewriteRule ^cand$ candidature.php
+RewriteRule ^suivie$ suivie.php
+RewriteRule ^conges$ conges.php
+RewriteRule ^comm$ comm.php
+RewriteRule ^cas$ cas.php
+RewriteRule ^sous$ sous.php
+RewriteRule ^profil$ profil.php
+
+RewriteRule ^patrimoine$ pat.php
+RewriteRule ^categorie$ categorie.php
+RewriteRule ^tache$ tache.php
+RewriteRule ^service$ services.php
+
+RewriteRule ^produit$ produit.php
+RewriteRule ^categorie$ categorie.php
+RewriteRule ^nproduit$ nproduit.php
+
+
+RewriteRule ^agent$ agent.php
+RewriteRule ^config$ config.php
+RewriteRule ^cass$ cass.php
+RewriteRule ^rapport$ presence.php
+RewriteRule ^tache$ tache.php
+RewriteRule ^demande$ demande.php
+RewriteRule ^profil$ profil.php
+RewriteRule ^conge$ conge.php
+RewriteRule ^comm$ comm.php
+RewriteRule ^docs$ docs.php
+RewriteRule ^offre$ offre.php
+RewriteRule ^postul$ postul.php
+RewriteRule ^candidat$ candidat.php
+RewriteRule ^view$ view.php
+RewriteRule ^souscrit$ souscrit.php
+RewriteRule ^sous$ sous.php

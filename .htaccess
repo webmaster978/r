@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^rh\.managerunigom\.com$
+RewriteRule ^/?$ "https\:\/\/rh\.managerunigom\.com\/" [R=301,L]
+
