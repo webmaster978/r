@@ -45,7 +45,7 @@
 		<!-- ============================================================== -->
 
     <?php
-    $conn = mysqli_connect('localhost','c1832965c','t6NA7V5NASdKwjX','c1832965c_unigom');
+    include '../config/data.php';
     if(isset($_POST['submit'])){
         $fileName = $_FILES['file']['name'];
         $fileTmpName = $_FILES['file']['tmp_name'];
